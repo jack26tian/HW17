@@ -1,0 +1,119 @@
+.flex-container {
+    align-items: stretch;
+}
+body{
+    background-color:#355E3B;
+    background-size: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&family=Montserrat:wght@500&display=swap');
+    /* Subheading Desktop */ 
+p {
+ color:white ;
+ font-family: 'Montserrat', sans-serif;
+ font-style: normal;
+ font-weight: 500;
+ font-size: 32px;
+ line-height: 39px;
+ text-align: justify;
+ position: relative;
+
+}
+h1 {
+    color:white ;
+    font-family: 'lilita one' ;sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    
+}
+/* Top Nav */
+.topnav {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+    text-decoration-line: none;
+      
+}
+.right {
+    position: absolute;
+    right: 10px;
+    top: 30px;
+    color: black;
+
+}
+#logo { 
+    float: left; 
+    width:50px; 
+    padding: 5px;  
+} 
+
+/* content1*/
+
+.first {
+  position: relative;
+  text-align: center;
+}
+.header1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+
+.learnmoreButton {
+  text-align: center;
+  background-color: #98AD39;
+  border-radius: 30.6074px;
+}
+/* content2*/
+.second {
+  display: flex;
+  flex-direction: row-reverse;
+   }
+.holdinghand {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+
+/* content3*/
+
+  .flex-parent {
+    display: flex;
+  }
+  
+  .button-group3 {
+    justify-content: center;
+  }
+  
+  button.margin-right {
+    margin-right: 20px;
+  }
+
+/* Button Text */
+button {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+} 
+  /* footer*/
+.footer {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+}
